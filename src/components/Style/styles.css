@@ -1,0 +1,139 @@
+.section {
+  width: 100%;
+  background-color: rgb(239 246 255 / var(--tw-bg-opacity)) !important;
+  
+  margin: auto;
+}
+.heading-container {
+  background: #f8fdff;
+ 
+}
+.heading-container h2 {
+  color: #003b79;
+  font-family: "Source Sans Pro";
+  font-size: 3.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.875rem;
+  margin-left: 7.2rem;
+}
+
+.swiper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 100%;
+  padding: 20px 0 20px 0;
+  background-color: rgb(239 246 255 / var(--tw-bg-opacity)) !important;
+ }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+}
+.swiper-pagination {
+  display: none !important;
+}
+
+.swiper-slide img {
+  max-width: 10rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 0.5rem solid;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80% !important;
+  border: 5px solid transparent;
+  align-items: center;
+  border-radius: 1.25rem;
+  background: #f8fdff;
+  box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.07);
+  z-index: 999 !important;
+}
+.swiper-client-data {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+}
+.swiper-client-msg {
+  width: 100%;
+  padding: 3rem 3rem 2rem 3rem;
+  background: white;
+  text-align: left;
+  box-shadow: var(--shadow);
+  position: relative;
+}
+
+.swiper-client-data figure img {
+  display: inline-flex;
+  max-width: 10rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 0.1rem solid gainsboro;
+  object-fit: cover;
+}
+.swiper-client-msg p::before {
+  content: "\f10d";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -1.5rem;
+  right: -1rem;
+  font-size: 1rem;
+  font-weight: 900;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #007ff4;
+  color: white;
+  font-family: "Font Awesome 6 Free";
+}
+
+.swiper-client-data {
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.swiper-client-data figure {
+  margin-left:2.5rem;
+}
+
+.swiper-client-data img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; 
+  object-fit: cover; 
+}
+
+.client-data-details p {
+  margin-left: 10px;
+
+}
+
+.client-data-details p:first-child {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.client-data-details p:last-child {
+  font-style: italic;
+  color: #888;
+}
